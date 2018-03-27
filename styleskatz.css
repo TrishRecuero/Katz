@@ -217,10 +217,11 @@ label[for="iBRPoliticaPrivacidad"], label[htmlFor="iBRPoliticaPrivacidad"] {
 /* --------------------------- MENU --------------------------- */
 
 .hero-nav {
-  height: 93vh;
-  background-position-y: -285px;
-  background-position-x: center;
-  background-image: url(https://learn.mheducation.com/rs/303-FKF-702/images/monstruitosheader.jpg);
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://learn.mheducation.com/rs/303-FKF-702/images/monstruitosheader.jpg);
 }
 
 .sectionone {
