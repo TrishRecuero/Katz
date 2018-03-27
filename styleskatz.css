@@ -803,36 +803,14 @@ html {
 /* Small Devices, Tablets */
 
 @media only screen and (max-width: 768px) {
-  .sectionvideo {
-    background-color: transparent;
-    padding: 0px !important;
-  }
-  div#section1formtext {
-    width: 100%;
-  }
-  .section2 h2 {
+
+  .accorciontabs {
+    display: block;
+}
+.logomenu {
     text-align: center;
-  }
-  .section2 p {
-    text-align: center;
-  }
-  img.iconitos {
-    width: 13%;
-    margin-top: 3%;
-  }
-  .section2.col-xs-12.col-sm-offset-1.col-sm-3 {
-    text-align: center;
-    padding-top: 7%;
-    padding-bottom: 3%;
-  }
-  ul.nav.navbar-nav {
-    text-align: center;
-  }
-  img.logo {
-    width: 10%;
-    margin: 1%;
-    /* text-align: center; */
-  }
+}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -847,7 +825,7 @@ html {
     padding-top: 7%;
   }
   img.logo {
-    width: 18%;
+    width: 50%;
     margin: 1%;
   }
   img.logor {
@@ -859,10 +837,6 @@ html {
   }
   img.iconitos {
     width: 25%;
-  }
-  .linecontainer {
-    width: 100% !important;
-    margin-left: 0% !important;
   }
   h1 {
     text-align: center !important;
